@@ -1,4 +1,8 @@
 h1 {
   background-color: rgb(172, 244, 220);
   color: grey;
+  font-family: "Roboto Serif", serif;
+}
+p {
+  font-family: "Roboto Serif", serif;
 }
