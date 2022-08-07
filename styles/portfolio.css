@@ -1,6 +1,6 @@
 :root {
   --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #f8eded;
 }
 h1,
 h2,
@@ -11,23 +11,24 @@ h6 {
   color: black;
   font-weight: bold;
 }
-
 h1,
 p {
   font-family: "Roboto Serif", serif;
 }
-.hero {
-  text-align: center;
-  background-color: var(--secondary-color);
-  margin: 160px 10px;
-}
+
 h1 {
   font-size: 80px;
   font-weight: 600;
 }
+.hero {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 160px 20px;
+}
 .hero h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: normal;
+  font-size: 24px;
 }
 .hero p {
   font-size: 36px;
@@ -37,8 +38,8 @@ h1 {
   color: #272142;
 }
 .btn-branding {
-  background-color: var(--branding-color);
-  padding: 12px 20px;
+  background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+  padding: 15px 30px;
   margin: 40px;
   color: white;
   border-radius: 4px;
