@@ -1,8 +1,47 @@
-h1 {
-  background-color: rgb(172, 244, 220);
-  color: grey;
-  font-family: "Roboto Serif", serif;
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-weight: bold;
+}
+
+h1,
 p {
   font-family: "Roboto Serif", serif;
+}
+.hero {
+  text-align: center;
+  background-color: var(--secondary-color);
+  margin: 160px 10px;
+}
+h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+.hero h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 2;
+  color: #272142;
+}
+.btn-branding {
+  background-color: var(--branding-color);
+  padding: 12px 20px;
+  margin: 40px;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
 }
