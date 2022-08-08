@@ -1,6 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
   --secondary-color: #f8eded;
+}
+body {
+  background-color: #ffffff;
 }
 h1,
 h2,
@@ -14,11 +16,17 @@ h6 {
 h1,
 p {
   font-family: "Roboto Serif", serif;
+  line-height: 2;
+  font-size: 16px;
 }
 
 h1 {
   font-size: 80px;
   font-weight: 600;
+}
+h2 {
+  font-size: 60px;
+  color: #272142;
 }
 .hero {
   text-align: center;
@@ -45,4 +53,21 @@ h1 {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
+}
+.btn-branding-outline {
+  padding: 15px 30px;
+  margin: 40px;
+  border-radius: 3px;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: var(--secondary-color);
+  border: 1px solid rgb(173, 83, 137);
+  color: rgb(60, 16, 83);
+  font-family: "Roboto Serif", serif;
+}
+.top-description {
+  font-weight: bold;
+  font-size: 63px;
+  margin: 48px;
+  opacity: 0.8;
 }
