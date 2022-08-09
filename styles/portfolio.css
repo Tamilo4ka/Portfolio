@@ -12,6 +12,7 @@ h5,
 h6 {
   color: black;
   font-weight: bold;
+  margin: 0;
 }
 h1,
 p {
@@ -37,7 +38,7 @@ h2 {
 .hero h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 30px;
 }
 .hero p {
   font-size: 36px;
