@@ -47,18 +47,27 @@ h2 {
   line-height: 2;
   color: #272142;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 25px;
   font-family: "Roboto Serif", serif;
 }
-.about-section-content {
+.content h3 {
+  font-size: 30px;
+  font-family: "Roboto Serif", serif;
+  margin: 20px 0 0;
+}
+.content p {
+  font-size: 18px;
+  margin: 0;
+}
+.content {
   margin: 30px;
 }
 .btn-branding {
@@ -109,8 +118,16 @@ h2 {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
+}
+.project-number {
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  color: #272142;
+  font-size: 37px;
+  opacity: 0.8;
+  margin-bottom: 20px;
 }
