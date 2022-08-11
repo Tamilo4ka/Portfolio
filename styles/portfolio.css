@@ -144,10 +144,11 @@ h4 {
   padding: 0 15px;
   line-height: 14px;
 }
+
 footer .email-link {
   text-decoration: none;
-  color: black;
   font-size: 24px;
+  color: black;
 }
 footer .email-link:hover {
   color: #272142;
