@@ -30,6 +30,9 @@ h2 {
   color: #272142;
   font-family: "Roboto Serif", serif;
 }
+h4 {
+  font-size: 48px;
+}
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
@@ -112,6 +115,9 @@ h2 {
   h2 {
     font-size: 44px;
   }
+  h4 {
+    font-size: 26px;
+  }
   .top-description {
     font-size: 36px;
   }
@@ -121,6 +127,9 @@ h2 {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
 .project-number {
@@ -134,4 +143,30 @@ h2 {
 .nav-item {
   padding: 0 15px;
   line-height: 14px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: #272142;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: rgb(60, 16, 83);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: #272142;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
