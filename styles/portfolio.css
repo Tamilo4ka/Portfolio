@@ -24,6 +24,7 @@ p {
 h1 {
   font-size: 85px;
   font-weight: 600;
+  color: #272142;
 }
 h2 {
   font-size: 60px;
@@ -54,7 +55,7 @@ h4 {
   padding: 60px 20px;
 }
 .content h1 {
-  font-size: 64px;
+  font-size: 44px;
   line-height: 80px;
 }
 .content h2 {
@@ -134,14 +135,6 @@ h4 {
   footer .contact-box {
     padding: 30px;
   }
-}
-.project-number {
-  font-family: "Roboto Serif", serif;
-  font-weight: bold;
-  color: #272142;
-  font-size: 37px;
-  opacity: 0.8;
-  margin-bottom: 20px;
 }
 .nav-item {
   padding: 0 15px;
