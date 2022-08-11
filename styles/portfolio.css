@@ -131,3 +131,7 @@ h2 {
   opacity: 0.8;
   margin-bottom: 20px;
 }
+.nav-item {
+  padding: 0 15px;
+  line-height: 14px;
+}
