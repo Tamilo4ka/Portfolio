@@ -82,6 +82,9 @@ h4 {
   font-size: 18px;
   line-height: 27px;
 }
+.btn-branding:hover {
+  color: pink;
+}
 .btn-branding-outline {
   padding: 15px 30px;
   margin: 40px;
